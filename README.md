@@ -1,42 +1,22 @@
-Setup and Use a Firewall on Windows/Linux
-Overview
-This guide provides step-by-step instructions to set up and use a firewall on both Windows and Linux systems to enhance your computer's security by controlling inbound and outbound network traffic.
+Report: Setup and Use of Firewall on Windows 
+Introduction;
+            This report outlines the process of setting up and using the Windows Defender Firewall, a built-in security feature in Windows operating systems. The firewall controls incoming and outgoing network traffic to protect the system from unauthorized access and cyber threats.
 
-Windows Firewall Setup and Usage
-Setup
-Open the Start Menu and search for Windows Defender Firewall.
+Firewall Setup on Windows;
+            Access Windows Firewall by opening Settings, then navigate to Update & Security > Windows Security > Firewall & network protection.
+            Select the active network profile (Domain, Private, or Public).
+            Enable Microsoft Defender Firewall by toggling it on for the selected profile. This activation ensures protection based on the network environment.
 
-Click on Windows Defender Firewall to open it.
+Usage and Management;
+            To allow trusted applications through the firewall, use the Allow an app through firewall option and select the appropriate applications and network access types.
+            For advanced configurations, open the Windows Defender Firewall with Advanced Security console by running wf.msc.
+            Create custom inbound or outbound rules based on programs, ports, protocols, or IP addresses to manage traffic more precisely.
+            These rules help specify which network communications are permitted or blocked, enhancing system security.
 
-To turn on the firewall, click Turn Windows Defender Firewall on or off from the left sidebar.
+Best Practices;
+            Regularly review firewall rules to avoid accidentally blocking essential services or applications.
+            Monitor firewall logs to detect unusual or unauthorized access attempts.
+            Avoid disabling the firewall unless necessary, as it increases system vulnerability.
 
-Enable the firewall for both private and public networks.
-
-Usage
-To allow an app through the firewall:
-
-Click Allow an app or feature through Windows Defender Firewall.
-
-Select the app you want to allow and click OK.
-
-To create custom rules:
-
-Go to Advanced settings.
-
-Use Inbound Rules and Outbound Rules to manage traffic.
-
-after the selecting the inbound new rule 
-
-it shows the new tab there is a options like (program,port,pre defined ,customize) select the port 
-
-Type the port number i used here the port number is 445- microsoft ds
-
-then it asks the allow connection or block the connect select  the block connection then it ask profile select the profile you want 
-
-NOTE ; This is for the educational purpose- internship 
-
-then finsh the process.see the main there will a block port showned .
-
-then fi
-Click New Rule to create a custom rule based on ports, programs, or protocols.
-                                        
+Conclusion;
+            Windows Defender Firewall serves as a vital component of network security on Windows systems. Proper setup and diligent management of firewall rules protect the system from unauthorized network access and potential threats. This report emphasizes the importance of using the firewall effectively to maintain robust security tailored to different network environments.
