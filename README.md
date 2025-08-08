@@ -31,7 +31,9 @@ it shows the new tab there is a options like (program,port,pre defined ,customiz
 
 Type the port number i used here the port number is 445- microsoft ds
 
-then it asks the allow connection or block the connect select  the block connection then it ask profile select the profile you want  
+then it asks the allow connection or block the connect select  the block connection then it ask profile select the profile you want 
+
+NOTE ; This is for the educational purpose- internship 
 
 then finsh the process.see the main there will a block port showned .
 
