@@ -1,6 +1,9 @@
-[Uploading Report_ Setup and Use of Firewall on Windows.pdf…]()
+
 Report: Setup and Use of Firewall on Windows
 Introduction
+
+
+
 This report outlines the process of setting up and using the Windows Defender Firewall, a built-in security feature in Windows operating systems. The firewall controls incoming and outgoing network traffic to protect the system from unauthorized access and cyber threats.
 
 Firewall Setup on Windows
