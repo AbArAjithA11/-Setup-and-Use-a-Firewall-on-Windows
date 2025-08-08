@@ -1,5 +1,8 @@
 
 Report: Setup and Use of Firewall on Windows
+
+
+
 Introduction
 
 
@@ -7,6 +10,9 @@ Introduction
 This report outlines the process of setting up and using the Windows Defender Firewall, a built-in security feature in Windows operating systems. The firewall controls incoming and outgoing network traffic to protect the system from unauthorized access and cyber threats.
 
 Firewall Setup on Windows
+
+
+
 Access Windows Firewall by opening Settings, then navigate to Update & Security > Windows Security > Firewall & network protection.
 
 Select the active network profile (Domain, Private, or Public).
@@ -14,6 +20,10 @@ Select the active network profile (Domain, Private, or Public).
 Enable Microsoft Defender Firewall by toggling it on for the selected profile. This activation ensures protection based on the network environment.
 
 Usage and Management
+
+
+
+
 To allow trusted applications through the firewall, use the Allow an app through firewall option and select the appropriate applications and network access types.
 
 For advanced configurations, open the Windows Defender Firewall with Advanced Security console by running wf.msc.
@@ -23,6 +33,9 @@ Create custom inbound or outbound rules based on programs, ports, protocols, or 
 These rules help specify which network communications are permitted or blocked, enhancing system security.
 
 Best Practices
+
+
+
 Regularly review firewall rules to avoid accidentally blocking essential services or applications.
 
 Monitor firewall logs to detect unusual or unauthorized access attempts.
